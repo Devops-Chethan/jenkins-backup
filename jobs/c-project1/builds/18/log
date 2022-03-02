@@ -1,0 +1,26 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building remotely on [8mha:////4JE0O3AxLUbwJMSgd5WZ45ZYF21mRckCxGkVonmo7wqSAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQi/azUvOzMvGLd4pzEslRnQwA8MBiqzgAAAA==[0mjenkins-slaveC1 in workspace /home/ubuntu/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Devops-Chethan/Devops_repo.git
+ > git init /home/ubuntu/workspace/c-project1 # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 00e8df4dac404638ea443ce30e95c84dc4e861d7 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 00e8df4dac404638ea443ce30e95c84dc4e861d7 # timeout=10
+Commit message: "added Test2 File"
+ > git rev-list --no-walk 00e8df4dac404638ea443ce30e95c84dc4e861d7 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins647772109221770894.sh
++ cd /var/lib/jenkins/workspace/c-project1
+/tmp/jenkins647772109221770894.sh: 2: cd: can't cd to /var/lib/jenkins/workspace/c-project1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

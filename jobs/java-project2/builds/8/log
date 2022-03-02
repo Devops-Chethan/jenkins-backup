@@ -1,0 +1,42 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/java-project2
+The recommended git tool is: NONE
+using credential e481160e-4362-4d35-a47b-08812517573c
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/java-project2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/JAVA_PGMS.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/JAVA_PGMS.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials java2 added
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/JAVA_PGMS.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 05f78e116a948ef1be878e39e6462b3fbb85a232 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 05f78e116a948ef1be878e39e6462b3fbb85a232 # timeout=10
+Commit message: "Create Test2 file"
+ > git rev-list --no-walk 05f78e116a948ef1be878e39e6462b3fbb85a232 # timeout=10
+[java-project2] $ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< org.jacoco:org.jacoco.examples.maven.java >--------------
+[INFO] Building JaCoCo Maven plug-in example for Java project 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4MrHB2d/j2EeG+fJI+7P5iIvXXR89dEFZuSmXhZ2cSKbAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.8.7:prepare-agent (default) @ org.jacoco.examples.maven.java ---
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/var/lib/jenkins/workspace/java-project2/target/jacoco.exec
+[INFO] 
+[8mha:////4MrHB2d/j2EeG+fJI+7P5iIvXXR89dEFZuSmXhZ2cSKbAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ org.jacoco.examples.maven.java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/java-project2/src/main/resources
+[INFO] 
+[8mha:////4MrHB2d/j2EeG+fJI+7P5iIvXXR89dEFZuSmXhZ2cSKbAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ org.jacoco.examples.maven.java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.481 s
+[INFO] Finished at: 2022-03-01T14:42:48Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

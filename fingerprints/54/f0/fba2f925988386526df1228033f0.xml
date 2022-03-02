@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-27 15:28:43.954 UTC</timestamp>
+  <md5sum>54f0fba2f925988386526df1228033f0</md5sum>
+  <fileName>Credential id=8388e42b-008d-4d99-b170-8b0521e15daa name=ubuntu/******</fileName>
+  <usages>
+    <entry>
+      <string>java-project1</string>
+      <ranges>3-5,8-12</ranges>
+    </entry>
+    <entry>
+      <string>c-project1</string>
+      <ranges>28-50</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

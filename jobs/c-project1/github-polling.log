@@ -1,0 +1,14 @@
+Started on Mar 1, 2022, 2:58:57 PM
+Started by event from 140.82.115.110 ⇒ http://35.174.116.244:8080/github-webhook/ on Tue Mar 01 14:58:57 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 32ca31ded7c4a8801211a6e04196711145ff014d (refs/remotes/origin/main)
+The recommended git tool is: NONE
+using credential 3195315d-7c7f-478b-8349-cf96456e2320
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials slave1-cproject added
+ > git ls-remote -h -- https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+Found 1 remote heads on https://github.com/Devops-Chethan/Devops_repo.git
+[poll] Latest remote head revision on refs/heads/main is: e7efcc4d93ecfd2f24964405ceee4c41f5fc0b51
+Done. Took 0.18 sec
+Changes found

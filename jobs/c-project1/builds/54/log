@@ -1,0 +1,53 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building remotely on [8mha:////4O1z2Q/Xdpzd7S1sej5rT1++urJztdt6198bnA+k9Y89AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQi/eKcxLJUQ93kgqL8rNTkEgDPxeJ5zgAAAA==[0mslave1-cproject in workspace /home/ubuntu/workspace/c-project1
+The recommended git tool is: NONE
+using credential 3195315d-7c7f-478b-8349-cf96456e2320
+Cloning the remote Git repository
+Cloning repository https://github.com/Devops-Chethan/Devops_repo.git
+ > git init /home/ubuntu/workspace/c-project1 # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials slave1-cproject added
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2cdfe2b392dee15d300680b629a71eee496513a1 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2cdfe2b392dee15d300680b629a71eee496513a1 # timeout=10
+Commit message: "Create TEST FILE 11:37"
+ > git rev-list --no-walk 2cdfe2b392dee15d300680b629a71eee496513a1 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins5559193196612346591.sh
++ cd /home/ubuntu/workspace/c-project1
++ make
+gcc -c main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    1 | main ()
+      | ^~~~
+main.c: In function ‘main’:
+main.c:3:2: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+    3 |  biggest();
+      |  ^~~~~~~
+main.c:4:2: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    4 |  factorial();
+      |  ^~~~~~~~~
+main.c:5:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+    5 |  reverse();
+      |  ^~~~~~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | biggest()
+      | ^~~~~~~
+gcc -c fact.c
+fact.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |  factorial() {
+      |  ^~~~~~~~~
+gcc -c rev.c
+rev.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | reverse()
+      | ^~~~~~~
+gcc -o ABC.exe main.o big2.o fact.o rev.o
+Finished: SUCCESS

@@ -1,0 +1,25 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/java-project2
+The recommended git tool is: NONE
+using credential 35f49a78-48d3-4ea3-aec7-ed503e270c86
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/java-project2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/JAVA_PGMS.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/JAVA_PGMS.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials ubuntu slave for java added
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/JAVA_PGMS.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision b77ae8c42e51988a6d3abd92cc9dec061c244407 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b77ae8c42e51988a6d3abd92cc9dec061c244407 # timeout=10
+Commit message: "Merge pull request #36 from codecov/dependabot/maven/junit-junit-4.13.2"
+ > git rev-list --no-walk b77ae8c42e51988a6d3abd92cc9dec061c244407 # timeout=10
+[java-project2] $ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< org.jacoco:org.jacoco.examples.maven.java >--------------
+[INFO] Building JaCoCo Maven plug-in example for Java project 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------

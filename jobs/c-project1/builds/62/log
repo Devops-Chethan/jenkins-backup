@@ -1,0 +1,24 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building remotely on [8mha:////4O1z2Q/Xdpzd7S1sej5rT1++urJztdt6198bnA+k9Y89AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQi/eKcxLJUQ93kgqL8rNTkEgDPxeJ5zgAAAA==[0mslave1-cproject in workspace /home/ubuntu/workspace/c-project1
+The recommended git tool is: NONE
+using credential 3195315d-7c7f-478b-8349-cf96456e2320
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials slave1-cproject added
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e7efcc4d93ecfd2f24964405ceee4c41f5fc0b51 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e7efcc4d93ecfd2f24964405ceee4c41f5fc0b51 # timeout=10
+Commit message: "Merge pull request #1 from Anandunakal03/main"
+ > git rev-list --no-walk e7efcc4d93ecfd2f24964405ceee4c41f5fc0b51 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins7941846970652193802.sh
++ cd /home/ubuntu/workspace/c-project1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

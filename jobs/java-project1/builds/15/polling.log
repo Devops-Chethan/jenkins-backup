@@ -1,0 +1,14 @@
+Started on Mar 1, 2022, 11:14:17 AM
+Started by event from 140.82.115.251 ⇒ http://35.174.116.244:8080/github-webhook/ on Tue Mar 01 11:14:17 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 157ee76ce127d16ae7e5b4d811b08f3df9871a37 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential 99b007ce-a594-40db-8768-a52891d0abe0
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials java pgm compiling on master
+ > git ls-remote -h -- https://github.com/Devops-Chethan/java_repo.git # timeout=10
+Found 1 remote heads on https://github.com/Devops-Chethan/java_repo.git
+[poll] Latest remote head revision on refs/heads/master is: c9af01130c425ac7955f64b0c71052dbd50d818f
+Done. Took 84 ms
+Changes found

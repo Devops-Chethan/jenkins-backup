@@ -1,0 +1,24 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4JE0O3AxLUbwJMSgd5WZ45ZYF21mRckCxGkVonmo7wqSAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQi/azUvOzMvGLd4pzEslRnQwA8MBiqzgAAAA==[0mjenkins-slaveC1 in workspace /home/ubuntu/workspace/c-project1
+The recommended git tool is: NONE
+using credential 8388e42b-008d-4d99-b170-8b0521e15daa
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision fba5e5fae117ebc4b8b5e7319b1d7bea19519313 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fba5e5fae117ebc4b8b5e7319b1d7bea19519313 # timeout=10
+Commit message: "C pgm for triggering with junkin"
+ > git rev-list --no-walk fba5e5fae117ebc4b8b5e7319b1d7bea19519313 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins11029617678060838441.sh
++ cd /home/ubuntu/workspace/c-project1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

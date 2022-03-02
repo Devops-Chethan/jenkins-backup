@@ -1,0 +1,23 @@
+Started by GitHub push by Devops-Chethan
+Running as SYSTEM
+Building remotely on [8mha:////4LnlhdDqZVcc+O9SmC2dxqCK9KuVillkeqidJs8BGzo7AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eKcxLJUI12QmQBpGwxCygAAAA==[0mslave2-java in workspace /home/ubuntu/workspace/java-project1
+The recommended git tool is: NONE
+using credential 99b007ce-a594-40db-8768-a52891d0abe0
+Cloning the remote Git repository
+Cloning repository https://github.com/Devops-Chethan/java_repo.git
+ > git init /home/ubuntu/workspace/java-project1 # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/java_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials java pgm compiling on master
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/java_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Devops-Chethan/java_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bdf28b21c6cb067b4c6724ecfb77d96ac2041263 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bdf28b21c6cb067b4c6724ecfb77d96ac2041263 # timeout=10
+Commit message: "Modifing test file"
+ > git rev-list --no-walk c9af01130c425ac7955f64b0c71052dbd50d818f # timeout=10
+Finished: SUCCESS

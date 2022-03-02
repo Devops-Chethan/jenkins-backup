@@ -1,0 +1,47 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building remotely on [8mha:////4HixKeX8smMHD76npzUp1eiMgShXmcptvkYpef31l0B2AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQifZBhusU5iWWpRgAbnQBXygAAAA==[0mjava-slave2 in workspace /home/ubuntu/workspace/java-project2
+The recommended git tool is: NONE
+using credential 35f49a78-48d3-4ea3-aec7-ed503e270c86
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/java-project2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/JAVA_PGMS.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/JAVA_PGMS.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials ubuntu slave for java added
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/JAVA_PGMS.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision b77ae8c42e51988a6d3abd92cc9dec061c244407 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b77ae8c42e51988a6d3abd92cc9dec061c244407 # timeout=10
+Commit message: "Merge pull request #36 from codecov/dependabot/maven/junit-junit-4.13.2"
+ > git rev-list --no-walk b77ae8c42e51988a6d3abd92cc9dec061c244407 # timeout=10
+[java-project2] $ mvn compile
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.jacoco:org.jacoco.examples.maven.java[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding JaCoCo Maven plug-in example for Java project 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.7:prepare-agent[m [1m(default)[m @ [36morg.jacoco.examples.maven.java[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/ubuntu/workspace/java-project2/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36morg.jacoco.examples.maven.java[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/workspace/java-project2/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36morg.jacoco.examples.maven.java[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.746 s
+[[1;34mINFO[m] Finished at: 2022-02-27T18:05:21Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS

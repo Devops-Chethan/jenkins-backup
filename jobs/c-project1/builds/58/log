@@ -1,0 +1,20 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+using credential 3195315d-7c7f-478b-8349-cf96456e2320
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials slave1-cproject added
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 32ca31ded7c4a8801211a6e04196711145ff014d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 32ca31ded7c4a8801211a6e04196711145ff014d # timeout=10
+Commit message: "Delete Test1"
+ > git rev-list --no-walk 32ca31ded7c4a8801211a6e04196711145ff014d # timeout=10
+Finished: SUCCESS

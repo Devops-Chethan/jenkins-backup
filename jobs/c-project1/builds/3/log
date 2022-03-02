@@ -1,0 +1,24 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 00e8df4dac404638ea443ce30e95c84dc4e861d7 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 00e8df4dac404638ea443ce30e95c84dc4e861d7 # timeout=10
+Commit message: "added Test2 File"
+ > git rev-list --no-walk 00e8df4dac404638ea443ce30e95c84dc4e861d7 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins7525365421797995155.sh
++ cd /var/lib/jenkins/workspace/c-project1
++ make
+/tmp/jenkins7525365421797995155.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-03-01 07:22:31.497 UTC</timestamp>
+  <md5sum>97fc0801181be7dd64ae935224cbc55a</md5sum>
+  <fileName>Credential id=3195315d-7c7f-478b-8349-cf96456e2320 name=ubuntu/****** (slave1-cproject added)</fileName>
+  <usages>
+    <entry>
+      <string>c-project1</string>
+      <ranges>51-62</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.6.1">
+      <timestamp>1646213023868</timestamp>
+      <nodeName>slave1-cproject</nodeName>
+      <timestamp0>1646212790703</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

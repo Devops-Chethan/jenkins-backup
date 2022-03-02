@@ -1,0 +1,24 @@
+Started by user [8mha:////4MC/reVPlqreFMfOxbOVBeHdEKWmwtAxeeJZBHatAT7rAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+using credential 8388e42b-008d-4d99-b170-8b0521e15daa
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Devops-Chethan/Devops_repo.git # timeout=10
+Fetching upstream changes from https://github.com/Devops-Chethan/Devops_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/Devops-Chethan/Devops_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2cdfe2b392dee15d300680b629a71eee496513a1 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2cdfe2b392dee15d300680b629a71eee496513a1 # timeout=10
+Commit message: "Create TEST FILE 11:37"
+ > git rev-list --no-walk fba5e5fae117ebc4b8b5e7319b1d7bea19519313 # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins9752527631621741988.sh
++ cd /home/ubuntu/workspace/c-project1
+/tmp/jenkins9752527631621741988.sh: line 2: cd: /home/ubuntu/workspace/c-project1: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-03-01 11:12:15.343 UTC</timestamp>
+  <md5sum>fc32c787bf987c8f0e3783a303db0352</md5sum>
+  <fileName>Credential id=99b007ce-a594-40db-8768-a52891d0abe0 name=ubuntu/****** (java pgm compiling on master)</fileName>
+  <usages>
+    <entry>
+      <string>java-project1</string>
+      <ranges>13-18</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
